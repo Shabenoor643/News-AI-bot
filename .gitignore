@@ -1,0 +1,34 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+*.egg-info/
+
+# Logs and runtime outputs
+outputs/articles/*.md
+outputs/images/*-hero.jpg
+outputs/images/*-thumb.jpg
+outputs/logs/*.log
+logs.xlsx
+
+# Database
+data/*.db
+data/*.db-*
+
+# Test/scratch output files
+email_output.html
+email_output_full.html
+cutout_test.png
+test_thumb.jpg
+
+# Node (legacy)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+coverage/
